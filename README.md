@@ -19,11 +19,11 @@ Antes de usar o script, certifique-se de ter instalado as seguintes bibliotecas:
 Você pode instalá-las usando o gerenciador de pacotes pip:
 
 ```
-pip install pandas
+pip install pandas tkinter
 ```
 
 ## Utilização
-Para usar o script, basta executar odds_bets_generator.py. Ele abrirá uma interface gráfica onde você pode inserir as odds desejadas. Após gerar as combinações, um arquivo Excel será criado com os resultados.
+Para usar o script, basta executar `odds_bets_generator.py`. Ele abrirá uma interface gráfica onde você pode inserir as odds desejadas. Após gerar as combinações, um arquivo Excel será criado com os resultados.
 
 Para processar arquivos Excel existentes, coloque-os no mesmo diretório que o script e atualize o caminho do arquivo de entrada na seção relevante do script (caminho_arquivo_entrada).
 
